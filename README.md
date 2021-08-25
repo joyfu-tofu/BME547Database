@@ -1,6 +1,6 @@
 # BME547 Health Database
 
-##Author Information 
+## Author Information 
 
 Author: Joy Fu
 
