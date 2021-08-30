@@ -16,7 +16,7 @@ def interface():
 
 def HDL_Driver():
     HDL_value = hdl_input()
-    HDL_Character = hdl_analysis(HDL_value)
+    HDL_Character = hdl_analysis(HDL_Value)
     hdl_output(HDL_Character)
 
 def hdl_input():
@@ -34,4 +34,5 @@ def hdl_analysis(HDL_value):
 def hdl_output(HDL_value, HDL_answer):
     print("The HDL value of {} is considered {}".format(HDL_value, HDL_answer))
     return
+
 interface()
