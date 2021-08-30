@@ -17,7 +17,7 @@ def interface():
 def HDL_Driver():
     HDL_value = hdl_input()
     HDL_character = hdl_analysis(HDL_value)
-    hdl_output(HDL_character)
+    hdl_output(HDL_character, HDL_value)
 
 def hdl_input():
     hdl_value = int(input("Enter HDL Value: "))
